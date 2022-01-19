@@ -1,0 +1,5 @@
+config firewall address
+    edit "host_$IPADDR"
+        set subnet $IPADDR 255.255.255.255
+    next
+end
